@@ -1,0 +1,37 @@
+<svg width="120" height="120" viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="tavernroll">
+  <title>tavernroll</title>
+  <!-- Original geometric d20 mark: hexagonal silhouette of an icosahedron
+       viewed corner-on, with faceting. Amber on ink. -->
+  <defs>
+    <clipPath id="hex">
+      <polygon points="60,8 105,34 105,86 60,112 15,86 15,34"/>
+    </clipPath>
+  </defs>
+  <g clip-path="url(#hex)">
+    <rect x="0" y="0" width="120" height="120" fill="#1d1a16"/>
+    <!-- top facets -->
+    <polygon points="60,8 105,34 60,52" fill="#e0aa4e"/>
+    <polygon points="60,8 15,34 60,52" fill="#c8963e"/>
+    <!-- central down-triangle -->
+    <polygon points="15,34 105,34 60,52" fill="#b3812f"/>
+    <!-- middle band -->
+    <polygon points="15,34 60,52 32,86" fill="#d19a42"/>
+    <polygon points="105,34 60,52 88,86" fill="#a9772a"/>
+    <polygon points="60,52 88,86 32,86" fill="#e6b25a"/>
+    <!-- bottom facets -->
+    <polygon points="32,86 88,86 60,112" fill="#c8963e"/>
+    <polygon points="15,86 32,86 60,112" fill="#9c6e26"/>
+    <polygon points="105,86 88,86 60,112" fill="#b3812f"/>
+    <polygon points="15,34 15,86 32,86" fill="#8f6522"/>
+    <polygon points="105,34 105,86 88,86" fill="#8f6522"/>
+  </g>
+  <!-- crisp outline + facet edges -->
+  <g fill="none" stroke="#241f19" stroke-width="2.5" stroke-linejoin="round">
+    <polygon points="60,8 105,34 105,86 60,112 15,86 15,34"/>
+    <polygon points="15,34 105,34 88,86 32,86"/>
+    <path d="M60,8 60,52 M15,34 60,52 105,34 M32,86 60,52 88,86 M60,112 60,52"/>
+  </g>
+  <!-- numeral pip -->
+  <text x="60" y="46" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif"
+        font-size="20" font-weight="700" fill="#241f19">20</text>
+</svg>
